@@ -1,0 +1,92 @@
+{
+  "blocks": [{
+      "type": "newline"
+    }, {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+        "type": "exit",
+        "style": "plain",
+        "foreground": "#5f7e97",
+        "properties": {
+          "display_exit_code": false,
+          "always_enabled": true,
+          "error_color": "#E36464",
+          "prefix": "\ue004 ",
+          "postfix": ""
+        }
+      }, {
+        "type": "path",
+        "style": "diamond",
+        "leading_diamond": "\uE0B2",
+        "trailing_diamond": "\uE0B6",
+        "foreground": "black",
+        "background": "#00b2d1",
+        "properties": {
+          "style": "folder",
+          "prefix": " \uE0C4 ",
+          "postfix": " "
+        }
+      }]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [{
+          "type": "executiontime",
+          "style": "diamond",
+          "foreground": "#000000",
+          "background": "#c3a202",
+          "leading_diamond": "\uE0B4",
+          "trailing_diamond": "\uE0B6",
+          "properties": {
+            "prefix": " took ",
+            "postfix": " \uE0CC ",
+            "threshold": 1,
+            "style": "coder"
+          }
+        },
+        {
+          "type": "time",
+          "style": "diamond",
+          "background": "#f0f3fc",
+          "foreground": "#000",
+          "leading_diamond": "\uE0B4",
+          "trailing_diamond": "\uE0B0",
+          "properties": {
+            "prefix": " at ",
+            "postfix": " \uE0CB ",
+            "time_format": "15:04"
+          }
+        }, {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#5f7e97",
+          "properties": {
+            "display_exit_code": false,
+            "always_enabled": true,
+            "error_color": "#E36464",
+            "prefix": "\uE008",
+            "postfix": " "
+          }
+        }
+      ]
+    }, {
+      "type": "newline"
+    }, {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [{
+        "type": "exit",
+        "style": "plain",
+        "foreground": "#5f7e97",
+        "properties": {
+          "display_exit_code": false,
+          "always_enabled": true,
+          "error_color": "#E36464",
+          "prefix": "\uE005 \uE0C5<#69FF94>\uE0C5</>"
+        }
+      }]
+    }
+  ]
+}

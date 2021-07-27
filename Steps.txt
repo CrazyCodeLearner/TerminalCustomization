@@ -1,0 +1,9 @@
+# Enabling the Scripts ( In Powershell [Admin] )
+   Run this -
+       Set-ExecutionPolicy RemoteSigned -Scope CurrentUser 
+
+# Install Font
+   Fira Code Retina.ttf
+
+# Last Step
+   Copy WindowsPowerShell Folder to Documents
